@@ -69,6 +69,12 @@ rohub:automatic	a      owl:DatatypeProperty ;
         rdfs:comment		"automatic creation mode flag" ;
         rdfs:isDefinedBy <http://w3id.org/ro-id/rohub/model> .
 
+### http://w3id.org/ro-id/rohub/model#dmp
+rohub:dmp	a      owl:DatatypeProperty ;
+        rdfs:label   		"dmp"@en ;
+        rdfs:comment		"dmp creation mode flag" ;
+        rdfs:isDefinedBy <http://w3id.org/ro-id/rohub/model> .
+
 ### http://w3id.org/ro-id/rohub/model#community
 rohub:community	a      owl:DatatypeProperty ;
         rdfs:label   		"community"@en ;
